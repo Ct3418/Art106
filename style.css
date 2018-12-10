@@ -5,8 +5,8 @@ max-height: 100vh;
 
 
 body {
-	function draw() 
-  background(123,207,253);
+	 
+	 background-color: rgb(123,207,253);
 	
     width: 90vmin;
     align-content: center;

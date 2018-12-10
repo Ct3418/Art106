@@ -20,7 +20,7 @@ var circle8_y=0;
 
 
 function setup() {
-var canvas= createCanvas(400, 400);
+var canvas= createCanvas(windowWidth, windowHeight);
  canvas.parent('header')
 }
 
@@ -130,4 +130,8 @@ textAlign(CENTER, BASELINE);
 text("Cameron Tucker",200,200,250,250)
 
 	
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
